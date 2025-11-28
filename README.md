@@ -3,8 +3,8 @@ substantial modifications and is designed for efficiently mirroring or leeching 
 destinations, including Google Drive, Telegram, or any rclone-supported cloud. It is built using asynchronous
 programming in Python.
 
-- **TELEGRAM CHANNEL:** https://t.me/mltb_official_channel
-- **TELEGRAM GROUP:** https://t.me/mltb_official_support
+- **TELEGRAM CHANNEL:** https://t.me/amanbotz
+- **TELEGRAM GROUP:** https://t.me/amanbotzsupport
 
 <details>
   <summary><h1>Features</h1></summary>
@@ -305,7 +305,7 @@ from [Filelion](https://vidhide.com/?op=my_account).
 from [Streamwish](https://streamwish.com/?op=my_account).
 
 - `YT_DLP_OPTIONS` (`Dict`): Dict of yt-dlp options. Check all possible
-options [HERE](https://github.com/yt-dlp/yt-dlp/blob/master/yt_dlp/YoutubeDL.py#L184) or use this [script](https://t.me/mltb_official_channel/177) to convert cli arguments to api options. Format: {key: value, key: value, key: value}.
+options [HERE](https://github.com/yt-dlp/yt-dlp/blob/master/yt_dlp/YoutubeDL.py#L184) or use this [script](https://t.me/amanbotz) to convert cli arguments to api options. Format: {key: value, key: value, key: value}.
   - Example: {"format": "bv*+mergeall[vcodec=none]", "nocheckcertificate": True, "playliststart": 10, "fragment_retries": float("inf"), "matchtitle": "S13", "writesubtitles": True, "live_from_start": True, "postprocessor_args": {"ffmpeg": ["-threads", "4"]}, "wait_for_video": (5, 100), "download_ranges": [{"start_time": 0, "end_time": 10}]}
 
 - `USE_SERVICE_ACCOUNTS` (`Bool`): Whether to use Service Accounts or not, with google-api-python-client. For this to work
